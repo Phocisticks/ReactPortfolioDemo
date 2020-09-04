@@ -1,3 +1,14 @@
+## How to get started
+
+in the command line of your choice run the following
+
+`npm install`
+
+and 
+
+`npm start`
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
