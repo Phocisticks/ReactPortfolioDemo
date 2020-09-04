@@ -1,4 +1,4 @@
-## How to get started
+## How To Get Started
 
 Please have downloaded and available
 
@@ -18,6 +18,9 @@ and
 
 `npm start`
 
+
+
+## Additional Info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
