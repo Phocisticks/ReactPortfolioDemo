@@ -1,0 +1,147 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body, html {
+  height: 100%;
+  margin: 0;  
+}
+
+.home {
+    /* The image used */
+    background: url(/images/mark-color.jpg) no-repeat 50% fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.about {
+  /* The image used */
+  background: url(/images/mark-nocolor.jpg) no-repeat 50% fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.resume {
+    /* The image used */
+    background: url(/images/mark-nocolor.jpg) no-repeat 50% fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.main {
+  color: white;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+  min-height: 100vh;
+  max-width: 75%;
+  margin-left: 12.5%;
+	-ms-flex-pack: center;
+	    justify-content: center;
+  text-align: center;
+
+}
+
+.main > .greeting {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.20em;
+  font-weight: 720;
+  text-shadow: 5px 5px 7px black;
+}
+
+.main > .header {
+  font-size: 3em;
+	margin: 1.0rem 0;
+  font-weight: 100;
+  text-shadow: 3px 3px 1px black;
+}
+
+.main > .sectionHeader {
+  font-size: 2.5em;
+	margin: 1.0rem 0;
+  font-weight: 100;
+  text-shadow: 3px 3px 1px black;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.main > .content {
+  font-size: 1.5em;
+	margin: 1.0rem 0;
+  font-weight: 100;
+  text-shadow: 3px 3px 2px black;
+}
+
+.main > .left {
+  text-align: left
+}
+
+.main > .links {
+	font-size: 1.5em;
+	margin: 1.0rem 0;
+  font-weight: 100;
+  text-shadow: 3px 3px 1px black;
+}
+
+.social-icons {
+	font-size: 2.2em;
+	
+}
+.social-icons > a {
+	margin: 0 1rem 1rem 0
+}
+
+.credits {
+  margin: 0.5rem 0;
+  text-shadow: 3px 3px 1px black;
+}
+
+.credits > a:link {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.credits > a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+i {
+  color: white;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
