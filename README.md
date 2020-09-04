@@ -1,6 +1,6 @@
 ## How To Get Started
 
-Please have downloaded and available
+### Please have downloaded and available
 
 - NPM
 - An IDE of your choice (My recommendation: Visual Studio Code)
@@ -9,16 +9,26 @@ Please have downloaded and available
   - **Mac recommendations:** Terminal (no download required)
   - **Linux recommendations:** You probably already know what a command line is.
 
+### Downloading this code using the command line
+- Click on the green `code` button at the near the top of this page
+- Copy the url e.g `https://github.com/Phocisticks/ReactPortfolioDemo.git`
+- using the command line
+  - navigate to the folder you want to store your code
+  - input the following command
+    - `git clone {paste copied url here} .` (the period at the end is important)
+    - should look something like `git clone https://github.com/Phocisticks/ReactPortfolioDemo.git .`
 
-in the command line of your choice run the following
+### Downloading this code using the zip
+  - Click on the green `code` button at the near the top of this page
+  - Click download zip
+  - unzip downloaded file to the folder you want  
 
-`npm install`
-
-and 
-
-`npm start`
-
-
+### Pre setup
+- open the folder containing your code in your IDE of choice and command line of choice
+- in the command line run the following
+  - `npm install`
+  - `npm start`
+- This should open up a webpage in your default browswer pointed to `localhost:3000`
 
 ## Additional Info
 
