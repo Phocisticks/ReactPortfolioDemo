@@ -23,7 +23,12 @@ const LinkList = Styled.ul`
 `;
 
 export const NavBar = () => (
-  <>
-    NAVBAR
-  </>
+  <LinkList>
+    <LinkItem>
+      <Link to="/">Home</Link>
+    </LinkItem>
+    <LinkItem>
+      <Link to="/resume">Resume</Link>
+    </LinkItem>
+  </LinkList>
 )

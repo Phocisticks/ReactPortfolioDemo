@@ -8,7 +8,7 @@ import { NavBar } from './NavBar';
 import { HomeWrapper, MainContent, Greeting, Hobbies, SocialLinks, Avatar} from './HomeStyledComponents';
 
 export const Home = () => (
-    <div style={{color: 'black'}}>
+    <div style={{color: 'black', padding: '10px', fontSize: '48px'}}>
         HOME
     </div>
 );
