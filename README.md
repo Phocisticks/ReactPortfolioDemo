@@ -1,5 +1,15 @@
 ## How to get started
 
+Please have downloaded and available
+
+- NPM
+- An IDE of your choice (My recommendation: Visual Studio Code)
+- A command line of your choice
+  - **Windows recommendations:** Powershell (no download required) Git Bash (download required) 
+  - **Mac recommendations:** Terminal (no download required)
+  - **Linux recommendations:** You probably already know what a command line is.
+
+
 in the command line of your choice run the following
 
 `npm install`
