@@ -43,7 +43,7 @@ export const SocialLinks = Styled.div`
 export const Avatar = Styled.img`
     margin-left: auto;
     margin-right: auto;
-    background-image: url(/images/mark-nocolor.jpg);
+    background-image: url(${props => props.picture});
     width: 250px;
     height: 250px;
     background-size: cover;
