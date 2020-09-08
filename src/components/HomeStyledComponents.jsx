@@ -36,13 +36,13 @@ export const Hobbies = Styled.div`
 export const SocialLinks = Styled.div`
     font-size: 2.2em;
     & > a {
-        margin: 0 1rem 1rem 0
+        margin: 0 0.5rem 0 0.5rem
     }
 `;
 
 export const Avatar = Styled.img`
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     background-image: url(${props => props.picture});
     width: 250px;
     height: 250px;
