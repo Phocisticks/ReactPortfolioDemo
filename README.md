@@ -2,6 +2,7 @@
 
 ### Please have downloaded and available
 
+- Node
 - NPM
 - An IDE of your choice (My recommendation: Visual Studio Code)
 - A command line of your choice
